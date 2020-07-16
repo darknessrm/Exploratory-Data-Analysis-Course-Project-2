@@ -21,6 +21,7 @@ The instructions are:
 
 In my case there is a base code:
 
+library(dplyr)
 exdata_filename <- "exdata-data-NEI_data.zip"
 if (!file.exists(exdata_filename)) {
   download_url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
